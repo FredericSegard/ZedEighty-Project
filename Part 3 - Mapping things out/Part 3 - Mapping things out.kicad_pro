@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Part 2 - Latching power switch.kicad_pro",
+    "filename": "Part 3 - Mapping things out.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -318,8 +318,16 @@
   },
   "sheets": [
     [
-      "1e6bd011-8cb2-4c53-acff-b83506d5f03c",
+      "8a50abe0-5000-47f3-b1a5-f37ea7324f50",
       ""
+    ],
+    [
+      "d13a4bc8-9509-4249-8bd1-ca8c608d3cfd",
+      "Clock"
+    ],
+    [
+      "440ffe93-8c0e-410c-985c-5cc558bf7b9d",
+      "CPU & memory"
     ]
   ],
   "text_variables": {}

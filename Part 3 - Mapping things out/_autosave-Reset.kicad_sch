@@ -1,0 +1,16 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d3487f36-c15e-4a81-9960-f2a902cc182f)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Reset circuit with 3 clock cycle delay")
+    (date "2022-09-30")
+    (rev "1")
+  )
+
+  (lib_symbols
+  )
+
+)

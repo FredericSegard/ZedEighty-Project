@@ -1,0 +1,45 @@
+Name     Z80_GLUE_LOGIC_P3 ;
+PartNo   ATF16V8B ;
+Date     10/5/2022 ;
+Revision 01 ;
+Designer Frederic Segard ;
+Company  Micro Hobbyist ;
+Assembly None ;
+Location U? ;
+Device   G16v8 ;
+
+/* *************** INPUT PINS ******************** */
+PIN 1   =    SET                  ; /* Master Reset (!MR)              */ 
+PIN 2   =    M1                   ; /* M1 CPU signal                   */ 
+PIN 3   =    IOREQ                ; /* I/O request CPU signal          */ 
+PIN 4   =    MREQ                 ; /* Memory request CPU signal       */ 
+PIN 5   =    RD                   ; /* Read CPU signal                 */ 
+PIN 6   =    WR                   ; /* Write CPU signal                */ 
+PIN 7   =    A2                   ; /* Address line A2                 */ 
+PIN 8   =    A3                   ; /* Address line A3                 */ 
+PIN 9   =    A4                   ; /* Address line A4                 */ 
+PIN 11  =    A5                   ; /* Address line A5                 */ 
+PIN 12  =    A6                   ; /* Address line A6                 */ 
+PIN 13  =    A7                   ; /* Address line A7                 */ 
+
+/* *************** OUTPUT PINS ******************** */
+PIN 19  =    SIO_CS               ; /* Serial I/O chip select ($00)    */ 
+PIN 18  =    BANK_SEL             ; /* RAM bank select ($70)           */ 
+PIN 17  =    RAM_OE               ; /* RAM output enable               */ 
+PIN 16  =    ROM_CS               ; /* ROM chip select                 */ 
+PIN 15  =    MEM_RD               ; /* Memory read                     */ 
+
+/* *************** PINNODES    ******************** */
+
+
+PINNODE RESET = ADDRESS:[38..3B] & M1 & !IOREQ & !WR ; /* Disable ROM ($38) */
+PINNODE Q     =  (Q & RESET) # !SET   ;  /* Internal Q                      */ 
+PINNODE NOT_Q = (NOT_Q & SET) # !RESET ; /* Internal /Q                     */ 
+
+/* *************** EQUATIONS    ******************** */
+
+!SIO_CS       = ADDRESS:[00..03] ;
+!BANK_SEL     = ADDRESS:[70..73] & M1 & !IOREQ & !WR ;
+MEM_RD        = IOREQ # RD ;
+RAM_OE        = Q # MEM_RD ;
+ROM_CS        = NOT_Q # MEM_RD ;

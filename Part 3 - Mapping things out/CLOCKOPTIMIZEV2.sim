@@ -1,0 +1,38 @@
+%SIGNAL
+PIN   2 =  MR 
+PIN  13 =  OE 
+PIN  23 =  Q0 
+PIN  22 =  Q1 
+PIN  21 =  Q2 
+PIN   1 =  TRIG 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+!Q0 =>
+    MR
+  # Q0
+
+!Q1 =>
+    MR
+  # Q0 & Q1
+  # !Q0 & !Q1
+
+!Q2 =>
+    MR
+  # !Q0 & !Q2
+  # !Q1 & !Q2
+  # Q0 & Q1 & Q2
+
+Q0.oe  =>
+    1 
+
+Q1.oe  =>
+    1 
+
+Q2.oe  =>
+    1 
+
+%END

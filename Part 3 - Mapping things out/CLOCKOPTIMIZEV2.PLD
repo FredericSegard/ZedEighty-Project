@@ -1,0 +1,29 @@
+Name     ClockOptimizeV2 ;
+PartNo   00 ;
+Date     10/12/2022 ;
+Revision 2 ;
+Designer Frederic Segard ;
+Company  Micro Hobbyist ;
+Assembly None ;
+Location  ;
+Device   G22V10 ;
+
+/* *************** INPUT PINS *********************/
+PIN 1 = TRIG ; /* Clock / Trigger / Latch */
+PIN 2 = MR ;   /* Master Reset / Clear */
+
+PIN 13 = OE ;  /* Output enable */
+
+
+/* *************** OUTPUT PINS *********************/
+PIN 23 = Q0 ; /* Latched data / counter */
+PIN 22 = Q1 ; /* Latched data / counter */
+PIN 21 = Q2 ; /* Latched data / counter */
+
+/* *************** EQUATIONS *********************/
+!Q2 = MR # (Q2 & Q1 & Q0) # (!Q2 & !Q0) # (!Q2 & !Q1) ;
+!Q1 = MR # (Q1 & Q0) # (!Q1 & !Q0) ;
+!Q0 = MR # (Q0) ;
+
+ 
+

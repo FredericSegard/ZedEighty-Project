@@ -1,0 +1,123 @@
+{COMPONENT S:\Z80\ZEDEIGHTY-PROJECT\PART 3 - MAPPING THINGS OUT\CLOCKOPTIMIZEV2.SYM
+
+ {ENVIRONMENT
+  {PDIFvrev 3.00}
+  {Program "CUPL(WM) Version 5.0a"}
+  {DBtype "Schematic"}
+  {DBvrev 1.01}
+  {DBtime "Wed Oct 12 19:07:02 2022 "}
+  {DBunit "MIL"}
+  {DBgrid 10}
+  {Lyrstr "WIRES" 1 "BUS" 1 "GATE" 2 "IEEE" 2 "PINFUN" 3 "PINNUM" 1 
+          "PINNAM" 6 "PINCON" 4 "REFDES" 2 "ATTR" 6 "SDOT" 1 
+          "DEVICE" 5 "OUTLIN" 5 "ATTR2" 6 "NOTES" 6 "NETNAM" 4 
+          "CMPNAM" 5 "BORDER" 5}
+ }
+
+ {USER
+  {VIEW
+   {Mode SYMB}
+   {Nlst OPEN}
+   {Vw 0 0 2}
+   {Lv 12 2 2 2 0 0 2 2 2 2 0 0 2 1 2 0 0 0 0}
+   {Gs 10 10}
+  }
+ }
+
+ {DISPLAY
+  [Ly "PINNUM"]
+  [Ls "SOLID"][Wd 0]
+  [Ts 15][Tj "LC"][Tr 0][Tm "N"]
+ }
+
+ {SYMBOL
+  {PIN_DEF
+   [Ly "PINCON"]
+   {P TRIG {Pt "INPUT"}{Lq 0}{Ploc 100 80}}
+   {P MR {Pt "INPUT"}{Lq 0}{Ploc 100 40}}
+   {P OE {Pt "INPUT"}{Lq 0}{Ploc 100 20}}
+   {P Q2 {Pt "I/O"}{Lq 0}{Ploc 280 20}}
+   {P Q1 {Pt "I/O"}{Lq 0}{Ploc 280 40}}
+   {P Q0 {Pt "I/O"}{Lq 0}{Ploc 280 60}}
+  }
+
+  {PKG
+   [Ly "REFDES"]
+   [Ts 25][Tj "CB"][Tr 0][Tm "N"]
+   {Rdl 190 110}
+
+   [Ly "PINNUM"]
+   [Ts 15][Tj "RC"]
+   {Pnl 120 90}
+   [Ts 15][Tj "RC"]
+   {Pnl 120 50}
+   {Pnl 120 30}
+   [Ts 15][Tj "LC"]
+   {Pnl 260 30}
+   {Pnl 260 50}
+   {Pnl 260 70}
+
+   {Sd A 1 2 13 21 22 23}
+  }
+
+  {PIC
+   [Ly "GATE"]
+   [Ts 15][Tj "LC"][Tr 0][Tm "N"]
+   {R 130 100 250 0}
+   {L 130 80 100 80}
+   {L 130 90 140 80 130 70}
+   {L 130 40 100 40}
+   {L 130 20 100 20}
+   {L 250 20 280 20}
+   {L 250 40 280 40}
+   {L 250 60 280 60}
+   [Ly "PINNAM"]
+   [Tj "LC"]
+   {T "TRIG" 140 80}
+   {T "MR" 140 40}
+   {T "OE" 140 20}
+   [Tj "RC"]
+   {T "Q2" 240 20}
+   {T "Q1" 240 40}
+   {T "Q0" 240 60}
+   [Ly "DEVICE"]
+   [Tj "CT"]
+   {T "G22V10" 190 -10}
+  }
+
+  {ATR
+   {IN
+    {Org 100 20}
+    {Ty 255}
+   }
+   {EX
+    [Ly "ATTR2"]
+    [Ts 12][Tj "CT"][Tr 0][Tm "N"]
+    {At PLD S:\Z80\ZEDEIGHTY-PROJECT\PART 3 - MAPPING THINGS OUT\CLOCKOPTIMIZEV2 190 100}
+   }
+  }
+ }
+
+ {DETAIL
+  {ANNOTATE
+  }
+
+  {NET_DEF
+   {N TRIG
+   }
+   {N MR
+   }
+   {N OE
+   }
+   {N Q2
+   }
+   {N Q1
+   }
+   {N Q0
+   }
+  }
+
+  {SUBCOMP
+  }
+ }
+}

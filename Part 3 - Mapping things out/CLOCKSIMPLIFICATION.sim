@@ -1,0 +1,93 @@
+%SIGNAL
+PIN  21 =  BLUE 
+PIN   1 = !CLK 
+PIN  17 =  CLOCK 
+PIN   2 =  D0 
+PIN   3 =  D1 
+PIN   4 =  D2 
+PIN   8 =  FAST1 
+PIN   9 =  FAST2 
+PIN  10 =  FAST4 
+PIN  22 =  GREEN 
+PIN   6 =  MODE 
+PIN   7 =  MR 
+PIN  13 = !OE 
+PIN  20 =  Q0 
+PIN  19 =  Q1 
+PIN  18 =  Q2 
+PIN  23 =  RED 
+PIN  11 =  SLOW 
+PIN   5 =  SPEED 
+PIN  14 =  STEP 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+BLUE =>
+    1 
+
+CLOCK =>
+    FAST4 & !Q0 & !Q2
+  # FAST4 & !Q1 & !Q2
+  # FAST1 & Q0 & !Q1 & Q2
+  # FAST2 & !Q0 & Q1 & Q2
+  # FAST4 & Q0 & Q1 & Q2
+  # !Q0 & !Q1 & Q2 & SLOW
+  # Q0 & Q1 & !Q2 & STEP
+
+GREEN =>
+    1 
+
+Q0.d  =>
+    D0 & MR
+
+Q0.ar Q1.ar Q2.ar  =>
+    0 
+
+Q0.sp Q1.sp Q2.sp  =>
+    0 
+
+Q1.d  =>
+    D1 & MR
+
+Q1.ar  =>
+    
+Q1.sp  =>
+    
+Q2.d  =>
+    D2 & MR
+
+Q2.ar  =>
+    
+Q2.sp  =>
+    
+RED =>
+    1 
+
+BLUE.oe  =>
+    1 
+
+CLOCK.oe  =>
+    1 
+
+GREEN.oe  =>
+    1 
+
+Q0.oe  =>
+    1 
+
+Q1.oe  =>
+    1 
+
+Q2.oe  =>
+    1 
+
+RED.oe  =>
+    1 
+
+STEP.oe  =>
+    0 
+
+%END

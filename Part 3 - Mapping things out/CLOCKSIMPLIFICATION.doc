@@ -1,0 +1,143 @@
+
+*******************************************************************************
+                              ClockSimplification
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          g22v10  Library DLIB-h-40-1
+Created         Mon Oct 10 17:25:26 2022
+Name            ClockSimplification 
+Partno          00 
+Revision        01 
+Date            10/10/2022 
+Designer        Frederic Segard 
+Company         The Micro Hobbyist 
+Assembly        Clock prototype 
+Location        Laval, QC, Canada 
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+BLUE =>
+    1 
+
+CLOCK =>
+    FAST4 & Q0 & Q2
+  # FAST4 & Q1 & Q2
+  # FAST1 & !Q0 & Q1 & !Q2
+  # FAST2 & Q0 & !Q1 & !Q2
+  # FAST4 & !Q0 & !Q1 & !Q2
+  # Q0 & Q1 & !Q2 & SLOW
+  # !Q0 & !Q1 & Q2 & STEP
+
+GREEN =>
+    1 
+
+Q0.d  =>
+    D0 & MR
+
+Q0.ar  =>
+    0 
+
+Q0.sp  =>
+    0 
+
+Q1.d  =>
+    D1 & MR
+
+Q1.ar  =>
+    0 
+
+Q1.sp  =>
+    0 
+
+Q2.d  =>
+    D2 & MR
+
+Q2.ar  =>
+    0 
+
+Q2.sp  =>
+    0 
+
+RED =>
+    1 
+
+BLUE.oe  =>
+    1 
+
+CLOCK.oe  =>
+    1 
+
+GREEN.oe  =>
+    1 
+
+Q0.oe  =>
+    1 
+
+Q1.oe  =>
+    1 
+
+Q2.oe  =>
+    1 
+
+RED.oe  =>
+    1 
+
+STEP.oe  =>
+    0 
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    BLUE                        21       V        1       12      3     
+ !  CLK                         1        V        -       -       -     
+    CLOCK                       17       V        7       14      3     
+    D0                          2        V        -       -       -     
+    D1                          3        V        -       -       -     
+    D2                          4        V        -       -       -     
+    FAST1                       8        V        -       -       -     
+    FAST2                       9        V        -       -       -     
+    FAST4                       10       V        -       -       -     
+    GREEN                       22       V        1       10      3     
+    MODE                        6        V        -       -       -     
+    MR                          7        V        -       -       -     
+ !  OE                          13       V        -       -       -     
+    Q0                          20       V        -       -       -     
+    Q0                  d       20       X        1       14      3     
+    Q0                  ar      20       X        1       1       1     
+    Q0                  sp      20       X        1       1       1     
+    Q1                          19       V        -       -       -     
+    Q1                  d       19       X        1       16      3     
+    Q1                  ar      19       X        1       1       1     
+    Q1                  sp      19       X        1       1       1     
+    Q2                          18       V        -       -       -     
+    Q2                  d       18       X        1       16      3     
+    Q2                  ar      18       X        1       1       1     
+    Q2                  sp      18       X        1       1       1     
+    RED                         23       V        1       8       3     
+    SLOW                        11       V        -       -       -     
+    SPEED                       5        V        -       -       -     
+    STEP                        14       V        -       -       -     
+    BLUE                oe      21       D        1       1       0     
+    CLOCK               oe      17       D        1       1       0     
+    GREEN               oe      22       D        1       1       0     
+    Q0                  oe      20       D        1       1       0     
+    Q1                  oe      19       D        1       1       0     
+    Q2                  oe      18       D        1       1       0     
+    RED                 oe      23       D        1       1       0     
+    STEP                oe      14       D        1       1       0     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

@@ -1,0 +1,65 @@
+Name     ClockSimplification ;
+PartNo   00 ;
+Date     10/10/2022 ;
+Revision 01 ;
+Designer Frederic Segard ;
+Company  The Micro Hobbyist ;
+Assembly Clock prototype ;
+Location Laval, QC, Canada ;
+Device   G22V10 ;
+
+/* *************** INPUT PINS *********************/
+PIN 1  = !CLK         ; /* Active low, invert clock to get rising edge */
+PIN 2  = D0           ; /* Data bus line D0 */ 
+PIN 3  = SPEED        ; /* Speed select: 0 = slow clock, 1 = fast clock */ 
+PIN 4  = MODE         ; /* Mode select: 0 = free run clock, 1 = single step */ 
+PIN 5  = MR           ; /* Master Reset */
+PIN 6  = FAST1        ; /* Fast clock 7.3728MHz */
+PIN 7  = FAST2        ; /* Fast clock 3.6864MHz */
+PIN 8  = FAST4        ; /* Fast clock 1.8432MHz */
+PIN 9  = SLOW         ; /* Variable slow clock produced by the 555 */
+PIN 13 = !OE          ; /* Active low, output enable required in registered mode */
+PIN 14 = STEP         ; /* Single step clock pulse */
+
+/* *************** OUTPUT PINS *********************/
+PIN 23 = RED          ; /* Red segment of RGB LED, sinked using common anode LED */ 
+PIN 22 = GREEN        ; /* Green segment of RGB LED, sinked using common anode LED */ 
+PIN 21 = BLUE         ; /* Blue segment of RGB LED, sinked using common anode LED */ 
+PIN 20 = Q0           ; /* Q0 out (latched D0) used for Internal purposes */ 
+PIN 19 = Q1           ; /* Q1 out (latched D1) used for Internal purposes */
+PIN 18 = Q2           ; /* Q2 out (latched D2) used for Internal purposes */
+PIN 17 = CLOCK        ; /* Outputing selected clock (muxed) */
+
+/* *************** EQUATIONS *********************/
+
+Q0.ar = 'b'0 ;
+Q1.ar = 'b'0 ;
+Q2.ar = 'b'0 ;
+Q0.sp = 'b'0 ;
+Q1.sp = 'b'0 ;
+Q2.sp = 'b'0 ;
+Q0.d  = (MR & D0) ;
+Q1.d  = (MR & D1) ;
+Q2.d  = (MR & D2) ;
+
+
+CONDITION
+{
+     IF !Q2 & !Q1 & !Q0 OUT !RED OUT !GREEN OUT BLUE ;
+     IF !Q2 & !Q1 & Q0 OUT !RED OUT GREEN OUT !BLUE ;
+     IF !Q2 & Q1 & !Q0 OUT RED OUT !GREEN OUT !BLUE ;
+     IF !Q2 & Q1 & Q0 OUT RED OUT GREEN OUT !BLUE ;
+     IF Q2 & !Q1 & !Q0 OUT RED OUT GREEN OUT BLUE ;
+     IF Q2 & !Q1 & Q0 OUT !RED OUT !GREEN OUT BLUE ;
+     IF Q2 & Q1 & !Q0 OUT !RED OUT !GREEN OUT BLUE ;
+     IF Q2 & Q1 & Q0 OUT !RED OUT !GREEN OUT BLUE ;
+}
+
+CLOCK = !Q2 & !Q1 & !Q0 & FAST4 #
+        !Q2 & !Q1 &  Q0 & FAST2 #
+        !Q2 &  Q1 & !Q0 & FAST1 #
+        !Q2 &  Q1 &  Q0 & SLOW  #
+         Q2 & !Q1 & !Q0 & STEP  #
+         Q2 & !Q1 &  Q0 & FAST4 #
+         Q2 &  Q1 & !Q0 & FAST4 #
+         Q2 &  Q1 &  Q0 & FAST4 ;

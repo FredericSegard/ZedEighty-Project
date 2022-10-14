@@ -1,0 +1,70 @@
+
+*******************************************************************************
+                                ClockOptimizeV2
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          g22v10  Library DLIB-h-40-1
+Created         Wed Oct 12 19:07:02 2022
+Name            ClockOptimizeV2 
+Partno          00 
+Revision        2 
+Date            10/12/2022 
+Designer        Frederic Segard 
+Company         Micro Hobbyist 
+Assembly        None 
+Location        
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+!Q0 =>
+    MR
+  # Q0
+
+!Q1 =>
+    MR
+  # Q0 & Q1
+  # !Q0 & !Q1
+
+!Q2 =>
+    MR
+  # !Q0 & !Q2
+  # !Q1 & !Q2
+  # Q0 & Q1 & Q2
+
+Q0.oe  =>
+    1 
+
+Q1.oe  =>
+    1 
+
+Q2.oe  =>
+    1 
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    MR                          2        V        -       -       -     
+    OE                          13       V        -       -       -     
+    Q0                          23       V        2       8       3     
+    Q1                          22       V        3       10      3     
+    Q2                          21       V        4       12      3     
+    TRIG                        1        V        -       -       -     
+    Q0                  oe      23       D        1       1       0     
+    Q1                  oe      22       D        1       1       0     
+    Q2                  oe      21       D        1       1       0     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

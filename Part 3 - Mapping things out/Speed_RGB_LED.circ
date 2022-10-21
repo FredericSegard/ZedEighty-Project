@@ -7,6 +7,9 @@
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
     </tool>
+    <tool name="Probe">
+      <a name="facing" val="west"/>
+    </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="west"/>
     </tool>
@@ -15,15 +18,6 @@
     </tool>
   </lib>
   <lib desc="#Gates" name="1">
-    <tool name="AND Gate">
-      <a name="facing" val="south"/>
-    </tool>
-    <tool name="NOR Gate">
-      <a name="facing" val="south"/>
-    </tool>
-    <tool name="XOR Gate">
-      <a name="facing" val="south"/>
-    </tool>
     <tool name="XNOR Gate">
       <a name="facing" val="south"/>
     </tool>
@@ -84,60 +78,46 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="Computer_D0"/>
     </comp>
-    <comp lib="0" loc="(300,210)" name="Ground">
+    <comp lib="0" loc="(290,390)" name="Ground">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(350,390)" name="Ground">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(360,280)" name="Clock"/>
+    <comp lib="0" loc="(360,300)" name="Clock">
+      <a name="highDuration" val="3"/>
+      <a name="lowDuration" val="3"/>
     </comp>
-    <comp lib="1" loc="(430,340)" name="OR Gate"/>
-    <comp lib="4" loc="(280,240)" name="D Flip-Flop">
+    <comp lib="1" loc="(510,290)" name="NOT Gate"/>
+    <comp lib="1" loc="(530,470)" name="AND Gate"/>
+    <comp lib="2" loc="(440,290)" name="Multiplexer"/>
+    <comp lib="4" loc="(270,400)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="4" loc="(330,400)" name="D Flip-Flop">
+    <comp lib="4" loc="(600,240)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="4" loc="(600,260)" name="D Flip-Flop">
+    <comp lib="4" loc="(600,490)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(160,290)" name="Button">
-      <a name="label" val="Toggle"/>
-    </comp>
-    <comp lib="5" loc="(160,450)" name="Button">
+    <comp lib="5" loc="(160,490)" name="Button">
       <a name="label" val="Computer_CS"/>
     </comp>
-    <comp lib="5" loc="(160,520)" name="Button">
-      <a name="label" val="RESET"/>
+    <comp lib="5" loc="(160,560)" name="Button">
+      <a name="label" val="MR"/>
     </comp>
-    <comp lib="5" loc="(760,280)" name="LED"/>
-    <comp lib="5" loc="(760,320)" name="LED">
-      <a name="color" val="#1700f0"/>
-    </comp>
-    <wire from="(160,290)" to="(230,290)"/>
-    <wire from="(160,410)" to="(320,410)"/>
-    <wire from="(160,450)" to="(230,450)"/>
-    <wire from="(160,520)" to="(300,520)"/>
-    <wire from="(230,290)" to="(230,320)"/>
-    <wire from="(230,290)" to="(270,290)"/>
-    <wire from="(230,320)" to="(380,320)"/>
-    <wire from="(230,360)" to="(230,450)"/>
-    <wire from="(230,360)" to="(380,360)"/>
-    <wire from="(230,450)" to="(320,450)"/>
-    <wire from="(250,220)" to="(250,250)"/>
-    <wire from="(250,220)" to="(350,220)"/>
-    <wire from="(250,250)" to="(270,250)"/>
-    <wire from="(300,210)" to="(300,240)"/>
-    <wire from="(300,300)" to="(300,520)"/>
-    <wire from="(300,520)" to="(350,520)"/>
-    <wire from="(330,250)" to="(550,250)"/>
-    <wire from="(330,290)" to="(350,290)"/>
-    <wire from="(350,220)" to="(350,290)"/>
-    <wire from="(350,390)" to="(350,400)"/>
-    <wire from="(350,460)" to="(350,520)"/>
-    <wire from="(380,410)" to="(530,410)"/>
-    <wire from="(430,340)" to="(470,340)"/>
-    <wire from="(720,280)" to="(760,280)"/>
-    <wire from="(720,320)" to="(760,320)"/>
+    <wire from="(160,410)" to="(260,410)"/>
+    <wire from="(160,490)" to="(250,490)"/>
+    <wire from="(160,560)" to="(290,560)"/>
+    <wire from="(250,450)" to="(250,490)"/>
+    <wire from="(250,450)" to="(260,450)"/>
+    <wire from="(250,490)" to="(480,490)"/>
+    <wire from="(290,390)" to="(290,400)"/>
+    <wire from="(290,460)" to="(290,560)"/>
+    <wire from="(320,410)" to="(420,410)"/>
+    <wire from="(360,280)" to="(410,280)"/>
+    <wire from="(360,300)" to="(410,300)"/>
+    <wire from="(420,310)" to="(420,410)"/>
+    <wire from="(440,290)" to="(480,290)"/>
+    <wire from="(510,290)" to="(590,290)"/>
   </circuit>
   <circuit name="TURBO2">
     <a name="appearance" val="logisim_evolution"/>

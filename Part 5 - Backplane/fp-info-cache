@@ -1,4 +1,4 @@
-20426264779639961
+20429602938380904
 0_Z80_Library
 10_Segment_Bar_graph
 DC10SRWA
@@ -77,6 +77,13 @@ Barrel_Jack_5.5mmODx2.1mmID_PJ-202A
 3
 3
 0_Z80_Library
+DIP-8-4_W7.62mm_Oscillator_Socket
+4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket for Oscillator
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
+0
+4
+4
+0_Z80_Library
 ISA_Connector
 6-5530843-5-1
 Connector
@@ -99,6 +106,13 @@ Microswitch_2.54mm_spacing
 3
 0_Z80_Library
 Microswitch_3mm_spacing
+
+
+0
+3
+3
+0_Z80_Library
+Microswitch_4.7mm_spacing
 
 
 0

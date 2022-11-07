@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 49,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -18,7 +18,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -33,10 +33,11 @@
       3,
       4,
       5,
+      6,
+      7,
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -62,11 +63,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_7ffffffe",
-    "zone_display_mode": 0
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "Part 3 - Clock v3.kicad_prl",
+    "filename": "Part 7 - Keyboard.kicad_prl",
     "version": 3
   },
   "project": {

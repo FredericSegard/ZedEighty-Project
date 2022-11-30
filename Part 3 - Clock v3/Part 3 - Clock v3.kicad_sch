@@ -1957,6 +1957,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 20113eb9-2fee-42e0-90df-2e5b87b13f2f)
   )
+  (label "USER6" (at 40.64 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 255b7e02-8646-4362-be82-51a05f475e96)
+  )
   (label "CLK" (at 110.49 80.01 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2571497d-11cd-4f16-a6ea-8e940883b289)
@@ -2057,6 +2061,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6d3b4f8d-a4c2-4bfe-88c9-06fd05585241)
   )
+  (label "USER5" (at 40.64 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6d61f474-1f3e-44be-b06a-3498f478565d)
+  )
   (label "A8" (at 74.93 69.85 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 74f5abbe-954c-4a40-93aa-0b581ed3e474)
@@ -2153,10 +2161,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d6f73310-2f7f-4350-95f1-83ebe26498b4)
   )
-  (label "~{IOWR}" (at 40.64 113.03 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d87c3bf3-7cdf-4776-b955-1dbbecae865e)
-  )
   (label "~{CLK_DIS}" (at 134.62 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d95bf5b2-307f-4c54-bd47-a4bdfcd70ddb)
@@ -2200,10 +2204,6 @@
   (label "CLK2" (at 40.64 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4a435b3-60d7-47ac-a5f9-4555c43036a7)
-  )
-  (label "~{IORD}" (at 40.64 110.49 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f524afc2-1e4e-4b62-b216-11ebbde5bc6a)
   )
   (label "~{MR}" (at 110.49 74.93 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2470,7 +2470,7 @@
     (property "Reference" "U2" (id 0) (at 184.15 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74AHC174" (id 1) (at 193.04 68.58 0)
+    (property "Value" "74AC174" (id 1) (at 193.04 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket" (id 2) (at 191.77 82.55 0)
@@ -2541,7 +2541,7 @@
     (in_bom yes) (on_board yes)
     (uuid 7ab56661-d288-4b8e-9fef-fb9545385b8e)
     (property "Reference" "U1" (id 0) (at 204.47 33.02 0))
-    (property "Value" "74AHC14" (id 1) (at 204.47 35.56 0))
+    (property "Value" "74AC14" (id 1) (at 204.47 35.56 0))
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 200.66 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2619,7 +2619,7 @@
     (in_bom yes) (on_board yes)
     (uuid 939fbd66-a80f-4546-9f8c-d57b6812fc46)
     (property "Reference" "U1" (id 0) (at 186.69 33.02 0))
-    (property "Value" "74AHC14" (id 1) (at 186.69 35.56 0))
+    (property "Value" "74AC14" (id 1) (at 186.69 35.56 0))
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 182.88 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2646,7 +2646,7 @@
     (in_bom yes) (on_board yes)
     (uuid 9717373b-b89a-4027-85bb-37ece30d706c)
     (property "Reference" "U1" (id 0) (at 218.44 88.9 0))
-    (property "Value" "74AHC14" (id 1) (at 218.44 91.44 0))
+    (property "Value" "74AC14" (id 1) (at 218.44 91.44 0))
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 214.63 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3296,145 +3296,145 @@
       (reference "SW8") (unit 1) (value "RESET FAST MSB") (footprint "0_Z80_Library:Microswitch_4.7mm_spacing")
     )
     (path "/939fbd66-a80f-4546-9f8c-d57b6812fc46"
-      (reference "U1") (unit 1) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 1) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/7ab56661-d288-4b8e-9fef-fb9545385b8e"
-      (reference "U1") (unit 2) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 2) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/9717373b-b89a-4027-85bb-37ece30d706c"
-      (reference "U1") (unit 3) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 3) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/9666f24b-d84e-43dd-a92d-05738fc209db"
-      (reference "U1") (unit 4) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 4) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/2969311f-4965-45c2-8cbc-dfdc72ede9f2"
-      (reference "U1") (unit 5) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 5) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/673e3259-aec6-41aa-88ec-9166c6b36eb5"
-      (reference "U1") (unit 6) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 6) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/b14b720e-e50a-41bf-873e-ca70d05a947f"
-      (reference "U1") (unit 7) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U1") (unit 7) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/6b851779-151d-47c6-b7c2-62587dd6883f"
-      (reference "U2") (unit 1) (value "74AHC174") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U2") (unit 1) (value "74AC174") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/eaa5ed18-1189-4e77-9e2e-4a467ab460a8"
-      (reference "U3") (unit 1) (value "74AHC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U3") (unit 1) (value "74AC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/181e4b14-71b0-4b28-b108-670bd0e0d6dd"
-      (reference "U3") (unit 2) (value "74AHC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U3") (unit 2) (value "74AC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/0eef5c55-f814-4512-8d05-791992e9ae51"
-      (reference "U3") (unit 3) (value "74AHC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U3") (unit 3) (value "74AC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/a519330f-2e4d-4369-81ea-74c085ff6458"
-      (reference "U3") (unit 4) (value "74AHC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U3") (unit 4) (value "74AC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/6095b1d6-addb-44f0-b777-6e6e2568f281"
-      (reference "U3") (unit 5) (value "74AHC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U3") (unit 5) (value "74AC08") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/f1db3f95-be34-4785-8c1d-ff851d1d425e"
-      (reference "U4") (unit 1) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 1) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/a16c1c7d-3502-4e95-85b9-1eb9af37e362"
-      (reference "U4") (unit 2) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 2) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/e28d1aa2-810d-4e69-80e5-8c804a633212"
-      (reference "U4") (unit 3) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 3) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/3a5a556e-afb2-4518-87b1-cabc23cec69c"
-      (reference "U4") (unit 4) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 4) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/277ac275-266e-419c-81bc-2a51aa9a6084"
-      (reference "U4") (unit 5) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 5) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/b44de654-bcbb-4fcf-a593-5a70c4b835ca"
-      (reference "U4") (unit 6) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 6) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/d3041758-f6a4-449e-bbfd-7c8d32df1cd6"
-      (reference "U4") (unit 7) (value "74AHC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U4") (unit 7) (value "74AC14") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/e3fc7523-2b2d-4914-8b24-575d27491221"
-      (reference "U5") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U5") (unit 1) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/a001d51d-8eb3-464f-a4d1-2f2f26fbdda0"
-      (reference "U5") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U5") (unit 2) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/00000000-0000-0000-0000-000062ed19f5"
-      (reference "U5") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U5") (unit 3) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/00000000-0000-0000-0000-000062ed19f3"
-      (reference "U6") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U6") (unit 1) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/9ee0c4d0-ed28-4210-a9bc-a3ecabbc5411"
-      (reference "U6") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U6") (unit 2) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/f8e2ec64-1034-499d-971d-c75177212e8a"
-      (reference "U6") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U6") (unit 3) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/dc7586cd-289b-4adc-ae21-c8dc6ed990f8"
-      (reference "U7") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 1) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/6adcd728-2cfb-48ef-a162-713e1c669238"
-      (reference "U7") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 2) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/4e7ea236-21a9-46d5-879d-b3c89d59ad55"
-      (reference "U7") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 3) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/3ed683fa-7ff5-4089-a37b-cba768c1b1cd"
-      (reference "U8") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U8") (unit 1) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/8e7232a2-6b1d-4c08-9525-7ed482b002a1"
-      (reference "U8") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U8") (unit 2) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/17ab81cc-bfaa-469b-91d7-3b12d3444f7f"
-      (reference "U8") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U8") (unit 3) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/f9b04ed4-2753-42fa-b8cf-904d64877067"
-      (reference "U9") (unit 1) (value "74HC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U9") (unit 1) (value "74AC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/99ad15f0-7105-4f3c-b2a5-9fb87281e553"
-      (reference "U9") (unit 2) (value "74HC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U9") (unit 2) (value "74AC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/4e258074-0ffd-4e8d-ac73-3d62a41b9657"
-      (reference "U9") (unit 3) (value "74HC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U9") (unit 3) (value "74AC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/a902545d-b910-4208-b114-f1603410424a"
-      (reference "U10") (unit 1) (value "74HC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U10") (unit 1) (value "74AC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/74f47d02-08f0-45eb-86bd-d02febc35885"
-      (reference "U10") (unit 2) (value "74HC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U10") (unit 2) (value "74AC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/3b5412c8-826c-4469-9193-34fc19d72922"
-      (reference "U10") (unit 3) (value "74HC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U10") (unit 3) (value "74AC112") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/f6cf5512-5c9c-4655-9e18-7cb3d930295e"
-      (reference "U11") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U11") (unit 1) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/c01c2aff-495a-4bcc-b8c6-c675284bf82f"
-      (reference "U11") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U11") (unit 2) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/fa2d2549-099b-49e5-87f4-e4b0f13e6141"
-      (reference "U11") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U11") (unit 3) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/00000000-0000-0000-0000-000062ed19fa"
       (reference "U12") (unit 1) (value "LMC555") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/30e40309-7a0b-427d-94fa-9b94e623199e"
-      (reference "U13") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U13") (unit 1) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/ef6913e8-37f0-466c-93b0-1e8cd27bb6c4"
-      (reference "U13") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U13") (unit 2) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/246f80d7-0316-42ae-8aca-9793dc6db013"
-      (reference "U13") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+      (reference "U13") (unit 3) (value "74AC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/ba4e69c7-e310-4c10-8c25-ec02d9ce6668"
       (reference "U14") (unit 1) (value "74HC251") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/9b09eefc-f96c-4606-a97a-0c9e3c57472f"
-      (reference "U15") (unit 1) (value "74AHC138") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
+      (reference "U15") (unit 1) (value "74HC138") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")
     )
     (path "/d13a4bc8-9509-4249-8bd1-ca8c608d3cfd/21392df5-c9c2-41c4-8e17-5a3afea638e1"
       (reference "U16") (unit 1) (value "74HC251") (footprint "Package_DIP:DIP-16_W7.62mm_Socket")

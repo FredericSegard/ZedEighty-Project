@@ -1,0 +1,3020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>S:\Z80\ZedEighty-Project\Part 5 - Backplane\Part 5 - Backplane.kicad_sch</source>
+    <date>10/7/2022 10:57:25 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power and clock</title>
+        <company>Frederic Segard - aka: The Micro Hobbyist</company>
+        <rev>1</rev>
+        <date>2022-10-01</date>
+        <source>Part 5 - Backplane.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Backplane Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2022-10-07</date>
+        <source>Backplane Clock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86bfe3d2-4d5a-4806-935c-20fdc6a1b5ac</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40c1f21c-41b6-4285-92f0-26062bf8515a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6c99f9a-a5fc-4490-96c6-1bcb6df6d380</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dba5ff1-e6e7-449d-a892-a80764f4d933</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44790f30-e107-4c31-8671-b942e07339f5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae2c6f01-02be-410b-ae89-9cb896458b6d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f99570c3-6f5c-4d8f-af7e-8caf255c61f9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30fc74c6-91da-490c-8f2d-d69fbd6b9a10</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c1e2af8-fa6d-4d3a-8749-18197e1bc1e8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a8c69ad-7ba3-4909-afe5-3aedb9197132</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b257665-6c9c-4336-baf8-00b4a9299cfb</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a1a4a0b-eae3-4a1a-af30-377eb202ca75</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb5c6e63-36ae-477a-b6e6-dc3d30011e0b</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>296d5f61-e954-40ad-9fa6-f0a6c51f7379</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c483</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c492</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c48c</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006350becc</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c475</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c46d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>BUS 1</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353cb42</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>BUS 8</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006468be1c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>BUS 2</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353cb36</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>BUS 3</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353cb2a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>BASIC BUS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x40_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x40" description="Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064f0a02b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>BUS 4</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353cb1e</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>BUS 5</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c8bd</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>EXTENDED BUS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x18" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000063f89c99</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>BUS 6</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353cb12</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>BUS 7</value>
+      <footprint>0_Z80_Library:ISA_Connector</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</datasheet>
+      <fields>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+      </fields>
+      <libsource lib="0_Z80_Library" part="ISA_CARD_CONNECTOR" description="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Description" value="Standard Card Edge Connectors 100 VRT 062DP"/>
+      <property name="Height" value="15.494"/>
+      <property name="Mouser Part Number" value="571-6-5530843-5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="6-5530843-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Part 5 - Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006353c8c9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>c8f3e167-cdb2-42b8-b2a0-d3f3338651cd</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>cbbc8e08-84b3-41f2-984f-69ee84f68098</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>b3d847ce-1e12-41be-8d8f-06ae87916144</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>32e3a811-3562-4ba9-b398-87e2a1c89459</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>f37d27da-186a-412e-bba2-2510b8c41658</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>2cbfcdb7-2bbf-406a-afe1-74153f585701</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>fcafdfe6-791a-4a24-8b4a-e906c6cd5116</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>22µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>1ae8d3f5-2494-4dc8-95c3-fd751ca0fa88</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>920768a1-8f90-4833-a092-efe0ae9fa13e</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>3533936c-f9b2-47c8-9785-bec76a136768</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PWR LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>08ad1200-8141-4486-b8eb-ff07ae1b3e2c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>RESET</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>d2d269d8-a368-469c-8f72-c532bd17868a</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>+5V DC/CP</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>cb6331c7-7819-430a-bb24-00b60ee16cfc</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IPP80P03P4L</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf9540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF9540N" description="-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>5b38ab51-6e64-42e0-b56e-b322579fb3dd</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>eddc9b7c-5187-4059-9662-7b019db449c2</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>623daf69-e767-4013-a2c3-15135eb38ec4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>416d52df-3a19-4620-9f82-a2b549e3004b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>5cca144f-181a-40db-aaf6-6aadd7a6656b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>0bcf2d6c-f0cd-4857-b546-76428eeec5c8</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>23365eac-0586-4d67-a4e5-25a933975e1c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>d20ebc61-1da6-45ae-bfb7-57e6c3bbf241</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>2cbce81f-3044-48d5-8a7e-dace490a8a02</tstamps>
+    </comp>
+    <comp ref="RS1">
+      <value>DS1813</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <libsource lib="0_Z80_Library" part="DS1813" description=""/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>206f8cc8-ac79-4051-9022-34598d5a286d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>POWER</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>2255343e-48de-49ac-98cc-1675608a9df9</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>2c5e9471-8dc5-483c-a3ae-b55d6924e3dd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM1117-3.3</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <libsource lib="0_Z80_Library" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>0ebdb766-ab3f-4b07-a9fd-0ec7b969d97d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>74AHC14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>54d8eb00-aea0-42fc-8381-7ec61afca868 652335f4-cebf-4d1f-a0d1-6298893bee1a a3f80b70-4228-43bf-bc46-588c3f8df1af 43a4949b-e30b-475e-9d96-fc5fbd0fe3b8 ec7f7a8d-d7f8-4217-9aeb-3bcc762d8247 55afc9df-ead7-467a-8dc1-14787a4189b2 3f09059a-1343-4619-8eff-d5fbf4833681</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74AHC174</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS174</datasheet>
+      <libsource lib="74xx" part="74LS174" description="Hex D-type Flip-Flop, reset"/>
+      <property name="Sheetname" value="Power &amp; Reset"/>
+      <property name="Sheetfile" value="Backplane Power.kicad_sch"/>
+      <sheetpath names="/Power &amp; Reset/" tstamps="/7f6071b0-5b8a-4dce-b3dd-f293377c9511/"/>
+      <tstamps>b0d1d4b3-d14c-4fa5-ab12-a9160b9dd466</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>94f260c4-2371-45e2-a553-aa5a70718034</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>3c07d429-0229-4d33-99ce-0759ea3f266b</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>a9660ca2-b276-4609-8c9f-393611e47f8b</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>284f2aa3-6e49-421d-a921-0dd6de57cffc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>0fc97a63-9992-4462-9d68-0d40a565d0dd</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>6ba85fcd-e6e8-416b-b842-3ebbe384a1f5</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>f1ca7073-a580-4554-889b-4f9061774df8</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>a68b787d-9b91-4788-ac1d-ca70d93f4a22</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>55a85369-4390-4898-b104-d435d0ceeef0</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>ef93f418-2549-4834-aebf-55c82b8781ee</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>b7b00b55-f2d8-4578-902e-7bdefe70be6e</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>0d66a768-52fb-4345-9f01-5b97ccbe1cc5</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>RUN</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>d938aece-f543-4f84-804f-a47c00d28b36</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SLOW</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>45f23fe6-5769-453d-9ec8-4790e2b2d0c5</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>STEP</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>181aa7ce-a227-44d2-ac6f-d897b1491b8d</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>FAST</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>cd4cafcf-6a9b-4933-bf5e-e5cba83d5f92</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>CLOCK</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>39fc5d3a-582d-4f0f-92ee-cc528464630e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>bfa9f2ac-6944-4721-9f91-48733c25e6d0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>20KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>0a940a85-0db6-4a58-8317-5b2eb3b8141c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>3bb8d72f-6391-416d-a30d-5495ea551bf4</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>20KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>d488a4eb-493d-4eb1-baf0-c96e2e397b6c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>1b5b5c5d-40f8-48f4-b893-703ca8e04919</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>20KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>d217b101-d068-429a-bd1c-db8457c8546c</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>3K3Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>465c40d9-43c4-4a17-b335-a710f817dc64</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>3K3Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>a1e9285e-c459-42d3-b154-e1f6e7aca4a6</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>a2798753-5c07-4d49-a26a-5546ef5ff912</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>ae2d3786-0d12-4f04-aae1-6616c10d0831</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>dfc86238-5a66-48e8-a4db-5eaebed04c20</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>3K3Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>26421d66-73af-435b-b1c7-b5d42976a74c</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>3K3Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>59f3233d-4937-45d4-924f-c91bfde32590</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>220Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>21adebb1-5709-4079-a9dd-ac704ee6597c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>fcfd3d9d-8a27-4361-97a8-d816b5142265</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>7456bd50-ed20-402a-8013-788cbef9390e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>3K3Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>58b034fe-641b-4406-93ce-c216b88f0278</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>b3b91ccb-8807-469f-bb92-ef0238c7961b</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>1MΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>be1a277e-5300-47ed-beb0-9ee2a433aeb7</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>STEP</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>2b93c6ca-15c1-4ce6-9238-b3ea17423275</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>MODE</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>56983752-8703-4f15-9ab7-194c0c0300af</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SPEED</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>faafbf2a-c39a-4da6-bdf9-1f83b314020c</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>BOOT MODE</value>
+      <footprint>0_Z80_Library:Microswitch_2.54mm_spacing</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>4c407f4d-d761-48ec-a992-ce934398cc0c</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>BOOT SPEED</value>
+      <footprint>0_Z80_Library:Microswitch_2.54mm_spacing</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>57aa0b47-c2e0-4498-a5e3-e3eb3f9edf1d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>74AHC08</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS08</datasheet>
+      <libsource lib="74xx" part="74LS08" description="Quad And2"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>32905196-b83a-4cdb-a5d9-a976ffc9220a 72e33791-c4d6-4b27-bf1b-50dcbbd3c991 14890881-105a-425f-8841-ad50be2eb295</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74AHC14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>c7eaf194-b69f-46a2-abdf-57dc7e502d78 acaf9908-85d9-4fba-98ca-5bcef47ea7f1 d0475801-a654-492a-a138-dababe3ce575 b3726d19-8983-4a3d-a7a4-507b5b359579 a9ef50b1-fc8e-484d-9881-6db30d905e47 82514dc4-5634-464e-8563-d5618a7151e3</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>74AHC74</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>74xx/74hc_hct74.pdf</datasheet>
+      <libsource lib="74xx" part="74HC74" description="Dual D Flip-flop, Set &amp; Reset"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>645aba0f-fd38-458f-8324-8670cf706696 c4065a40-fb07-484c-82e9-46b2dddf09ef 093d1e97-6ef6-4e8d-9bc9-2d7bc82480c5</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74AHC74</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>74xx/74hc_hct74.pdf</datasheet>
+      <libsource lib="74xx" part="74HC74" description="Dual D Flip-flop, Set &amp; Reset"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>c4a6000d-e2f1-40aa-b264-8cd010031b06 afa9144f-4329-4596-be19-34443b619d47 43612d5a-7f9a-425e-984f-171f0100f963</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>74AHC74</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>74xx/74hc_hct74.pdf</datasheet>
+      <libsource lib="74xx" part="74HC74" description="Dual D Flip-flop, Set &amp; Reset"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>984edb2b-11f6-4a31-9542-e1ebc563b85a a7758936-f299-427e-a250-9c5dc10d65b9 4ded4899-fcb8-4457-ba75-88a630f3fcfc</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>74AHC74</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>74xx/74hc_hct74.pdf</datasheet>
+      <libsource lib="74xx" part="74HC74" description="Dual D Flip-flop, Set &amp; Reset"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>e6154fc4-5359-4d7c-a9cf-25fadc79719f b027c26c-c911-45b3-a579-f297bc974b5d 5e89c8d2-2de1-45c1-a67c-bbe211138429</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>LMC555</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <libsource lib="0_Z80_Library" part="LMC555" description=""/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>3ba2d283-5e24-4f80-b5da-81affabe5e39</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>74AHC00</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc00</datasheet>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>a0ae8fc6-89e7-4a7d-8d85-257d6d612b12</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>74AHC174</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS174</datasheet>
+      <libsource lib="74xx" part="74LS174" description="Hex D-type Flip-Flop, reset"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>2fb29b55-2bb3-4f53-b30b-fb56bf89e715</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>74AC151</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS151</datasheet>
+      <libsource lib="74xx" part="74LS151" description="Multiplexer 8 to 1"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>858569fb-9078-4318-9237-04c8dc72eb74</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>74HC251</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS251</datasheet>
+      <libsource lib="74xx" part="74LS251" description="Multiplexer 8 to 1, 3-state Outputs"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>0a9c86d7-e63a-4299-b810-fd20e1df3599</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>74AHC14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>443ba7d3-7972-4864-b736-b1e48a152611</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>14.7456MHz</value>
+      <footprint>Oscillator:Oscillator_DIP-8</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</datasheet>
+      <libsource lib="Oscillator" part="CXO_DIP8" description="Crystal Clock Oscillator, DIP8-style metal package"/>
+      <property name="Sheetname" value="Backplane Clock"/>
+      <property name="Sheetfile" value="Backplane Clock.kicad_sch"/>
+      <sheetpath names="/Backplane Clock/" tstamps="/1a82ea5f-4d18-4bdb-9666-9e541f127455/"/>
+      <tstamps>0202fad7-bd55-4c3b-a9fd-e342286ff336</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_Z80_Library" part="DS1813">
+      <fields>
+        <field name="Reference">RS</field>
+        <field name="Value">DS1813</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="output"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Z80_Library" part="ISA_CARD_CONNECTOR">
+      <description>Standard Card Edge Connectors 100 VRT 062DP</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ISA_CARD_CONNECTOR</field>
+        <field name="Footprint">655308435</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F5530843%7FF8%7Fpdf%7FEnglish%7FENG_CD_5530843_F8.pdf%7F6-5530843-5</field>
+        <field name="Description">Standard Card Edge Connectors 100 VRT 062DP</field>
+        <field name="Height">15.494</field>
+        <field name="Mouser Part Number">571-6-5530843-5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6-5530843-5?qs=X1mjqRbeMc4evMKvgkFEjA%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">6-5530843-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="A3" type="passive"/>
+        <pin num="4" name="A4" type="passive"/>
+        <pin num="5" name="A5" type="passive"/>
+        <pin num="6" name="A6" type="passive"/>
+        <pin num="7" name="A7" type="passive"/>
+        <pin num="8" name="A8" type="passive"/>
+        <pin num="9" name="A9" type="passive"/>
+        <pin num="10" name="A10" type="passive"/>
+        <pin num="11" name="A11" type="passive"/>
+        <pin num="12" name="A12" type="passive"/>
+        <pin num="13" name="A13" type="passive"/>
+        <pin num="14" name="A14" type="passive"/>
+        <pin num="15" name="A15" type="passive"/>
+        <pin num="16" name="A16" type="passive"/>
+        <pin num="17" name="A17" type="passive"/>
+        <pin num="18" name="A18" type="passive"/>
+        <pin num="19" name="A19" type="passive"/>
+        <pin num="20" name="A20" type="passive"/>
+        <pin num="21" name="A21" type="passive"/>
+        <pin num="22" name="A22" type="passive"/>
+        <pin num="23" name="A23" type="passive"/>
+        <pin num="24" name="A24" type="passive"/>
+        <pin num="25" name="A25" type="passive"/>
+        <pin num="26" name="A26" type="passive"/>
+        <pin num="27" name="A27" type="passive"/>
+        <pin num="28" name="A28" type="passive"/>
+        <pin num="29" name="A29" type="passive"/>
+        <pin num="30" name="A30" type="passive"/>
+        <pin num="31" name="A31" type="passive"/>
+        <pin num="32" name="B1" type="passive"/>
+        <pin num="33" name="B2" type="passive"/>
+        <pin num="34" name="B3" type="passive"/>
+        <pin num="35" name="B4" type="passive"/>
+        <pin num="36" name="B5" type="passive"/>
+        <pin num="37" name="B6" type="passive"/>
+        <pin num="38" name="B7" type="passive"/>
+        <pin num="39" name="B8" type="passive"/>
+        <pin num="40" name="B9" type="passive"/>
+        <pin num="41" name="B10" type="passive"/>
+        <pin num="42" name="B11" type="passive"/>
+        <pin num="43" name="B12" type="passive"/>
+        <pin num="44" name="B13" type="passive"/>
+        <pin num="45" name="B14" type="passive"/>
+        <pin num="46" name="B15" type="passive"/>
+        <pin num="47" name="B16" type="passive"/>
+        <pin num="48" name="B17" type="passive"/>
+        <pin num="49" name="B18" type="passive"/>
+        <pin num="50" name="B19" type="passive"/>
+        <pin num="51" name="B20" type="passive"/>
+        <pin num="52" name="B21" type="passive"/>
+        <pin num="53" name="B22" type="passive"/>
+        <pin num="54" name="B23" type="passive"/>
+        <pin num="55" name="B24" type="passive"/>
+        <pin num="56" name="B25" type="passive"/>
+        <pin num="57" name="B26" type="passive"/>
+        <pin num="58" name="B27" type="passive"/>
+        <pin num="59" name="B28" type="passive"/>
+        <pin num="60" name="B29" type="passive"/>
+        <pin num="61" name="B30" type="passive"/>
+        <pin num="62" name="B31" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Z80_Library" part="LM1117-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LM1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Z80_Library" part="LMC555">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMC555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC00">
+      <description>quad 2-input NAND gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn74hc00</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC00</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74hc00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC14">
+      <description>Hex inverter schmitt trigger</description>
+      <docs>http://www.ti.com/lit/gpn/sn74HC14</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74HC14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC74">
+      <description>Dual D Flip-flop, Set &amp; Reset</description>
+      <docs>74xx/74hc_hct74.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC74</field>
+        <field name="Datasheet">74xx/74hc_hct74.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{R}" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="C" type="input"/>
+        <pin num="4" name="~{S}" type="input"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="~{Q}" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~{Q}" type="output"/>
+        <pin num="9" name="Q" type="output"/>
+        <pin num="10" name="~{S}" type="input"/>
+        <pin num="11" name="C" type="input"/>
+        <pin num="12" name="D" type="input"/>
+        <pin num="13" name="~{R}" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS08">
+      <description>Quad And2</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS08</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS08</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS151">
+      <description>Multiplexer 8 to 1</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS151</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS151</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS151</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I3" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I1" type="input"/>
+        <pin num="4" name="I0" type="input"/>
+        <pin num="5" name="Z" type="output"/>
+        <pin num="6" name="~{Z}" type="output"/>
+        <pin num="7" name="~{E}" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="I7" type="input"/>
+        <pin num="13" name="I6" type="input"/>
+        <pin num="14" name="I5" type="input"/>
+        <pin num="15" name="I4" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS174">
+      <description>Hex D-type Flip-Flop, reset</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS174</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS174</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS174</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{Mr}" type="input"/>
+        <pin num="2" name="Q0" type="output"/>
+        <pin num="3" name="D0" type="input"/>
+        <pin num="4" name="D1" type="input"/>
+        <pin num="5" name="Q1" type="output"/>
+        <pin num="6" name="D2" type="input"/>
+        <pin num="7" name="Q2" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Cp" type="input"/>
+        <pin num="10" name="Q3" type="output"/>
+        <pin num="11" name="D3" type="input"/>
+        <pin num="12" name="Q4" type="output"/>
+        <pin num="13" name="D4" type="input"/>
+        <pin num="14" name="D5" type="input"/>
+        <pin num="15" name="Q5" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS251">
+      <description>Multiplexer 8 to 1, 3-state Outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS251</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS251</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS251</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I3" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I1" type="input"/>
+        <pin num="4" name="I0" type="input"/>
+        <pin num="5" name="Y" type="tri_state"/>
+        <pin num="6" name="~{Y}" type="tri_state"/>
+        <pin num="7" name="~{OE}" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="I7" type="input"/>
+        <pin num="13" name="I6" type="input"/>
+        <pin num="14" name="I5" type="input"/>
+        <pin num="15" name="I4" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x18">
+      <description>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x40">
+      <description>Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x40</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="CXO_DIP8">
+      <description>Crystal Clock Oscillator, DIP8-style metal package</description>
+      <docs>http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</docs>
+      <footprints>
+        <fp>Oscillator*DIP*8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CXO_DIP8</field>
+        <field name="Footprint">Oscillator:Oscillator_DIP-8</field>
+        <field name="Datasheet">http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="8" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF9540N">
+      <description>-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf9540n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF9540N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf9540n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_Z80_Library">
+      <uri>S:/Z80/ZedEighty-Project/0_Z80_Library/0_Z80_Library.kicad_sym</uri>
+    </library>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J1" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J10" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J2" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J3" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J6" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J7" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J9" pin="29" pinfunction="A29" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J1" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J1" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J10" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J10" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J10" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J2" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J2" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J2" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J3" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J3" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J4" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J4" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J6" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J6" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J6" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J7" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J7" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J7" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="J8" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J9" pin="30" pinfunction="A30" pintype="passive"/>
+      <node ref="J9" pin="33" pinfunction="B2" pintype="passive"/>
+      <node ref="J9" pin="61" pinfunction="B30" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U10" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U10" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U14" pin="11" pinfunction="S0" pintype="input"/>
+      <node ref="U14" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="11" pintype="input"/>
+      <node ref="U2" pin="13" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="9" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="~{R}" pintype="input"/>
+      <node ref="U7" pin="10" pinfunction="~{S}" pintype="input"/>
+      <node ref="U7" pin="13" pinfunction="~{R}" pintype="input"/>
+      <node ref="U7" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="~{S}" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="~{R}" pintype="input"/>
+      <node ref="U8" pin="10" pinfunction="~{S}" pintype="input"/>
+      <node ref="U8" pin="13" pinfunction="~{R}" pintype="input"/>
+      <node ref="U8" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="~{S}" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="~{R}" pintype="input"/>
+      <node ref="U9" pin="10" pinfunction="~{S}" pintype="input"/>
+      <node ref="U9" pin="13" pinfunction="~{R}" pintype="input"/>
+      <node ref="U9" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="~{S}" pintype="input"/>
+      <node ref="X1" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="X1" pin="8" pinfunction="Vcc" pintype="power_in"/>
+    </net>
+    <net code="3" name="/A0">
+      <node ref="J1" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J10" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J3" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J6" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J7" pin="18" pinfunction="A18" pintype="passive"/>
+      <node ref="J9" pin="18" pinfunction="A18" pintype="passive"/>
+    </net>
+    <net code="4" name="/A1">
+      <node ref="J1" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J10" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J3" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J6" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J7" pin="17" pinfunction="A17" pintype="passive"/>
+      <node ref="J9" pin="17" pinfunction="A17" pintype="passive"/>
+    </net>
+    <net code="5" name="/A2">
+      <node ref="J1" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J10" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J6" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J7" pin="16" pinfunction="A16" pintype="passive"/>
+      <node ref="J9" pin="16" pinfunction="A16" pintype="passive"/>
+    </net>
+    <net code="6" name="/A3">
+      <node ref="J1" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J10" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J6" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J7" pin="15" pinfunction="A15" pintype="passive"/>
+      <node ref="J9" pin="15" pinfunction="A15" pintype="passive"/>
+    </net>
+    <net code="7" name="/A4">
+      <node ref="J1" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J10" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J6" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J7" pin="14" pinfunction="A14" pintype="passive"/>
+      <node ref="J9" pin="14" pinfunction="A14" pintype="passive"/>
+    </net>
+    <net code="8" name="/A5">
+      <node ref="J1" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J10" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J6" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="A13" pintype="passive"/>
+      <node ref="J9" pin="13" pinfunction="A13" pintype="passive"/>
+    </net>
+    <net code="9" name="/A6">
+      <node ref="J1" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J10" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="A12" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="A12" pintype="passive"/>
+    </net>
+    <net code="10" name="/A7">
+      <node ref="J1" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J10" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="A11" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="A11" pintype="passive"/>
+    </net>
+    <net code="11" name="/A8">
+      <node ref="J1" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J10" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="A10" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="A10" pintype="passive"/>
+    </net>
+    <net code="12" name="/A9">
+      <node ref="J1" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J10" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="A9" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="A9" pintype="passive"/>
+    </net>
+    <net code="13" name="/A10">
+      <node ref="J1" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="A8" pintype="passive"/>
+    </net>
+    <net code="14" name="/A11">
+      <node ref="J1" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="A7" pintype="passive"/>
+    </net>
+    <net code="15" name="/A12">
+      <node ref="J1" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="A6" pintype="passive"/>
+    </net>
+    <net code="16" name="/A13">
+      <node ref="J1" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="A5" pintype="passive"/>
+    </net>
+    <net code="17" name="/A14">
+      <node ref="J1" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="18" name="/A15">
+      <node ref="J1" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="19" name="/Backplane Clock/FAST">
+      <node ref="U14" pin="1" pinfunction="I3" pintype="input"/>
+      <node ref="U14" pin="2" pinfunction="I2" pintype="input"/>
+      <node ref="U4" pin="6" pintype="output"/>
+    </net>
+    <net code="20" name="/Backplane Clock/FAST1">
+      <node ref="U13" pin="1" pinfunction="I3" pintype="input"/>
+      <node ref="U13" pin="12" pinfunction="I7" pintype="input"/>
+      <node ref="U13" pin="13" pinfunction="I6" pintype="input"/>
+      <node ref="U13" pin="14" pinfunction="I5" pintype="input"/>
+      <node ref="U13" pin="15" pinfunction="I4" pintype="input"/>
+      <node ref="U13" pin="2" pinfunction="I2" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="Q" pintype="output"/>
+      <node ref="U8" pin="3" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="21" name="/Backplane Clock/FAST2">
+      <node ref="U13" pin="3" pinfunction="I1" pintype="input"/>
+      <node ref="U8" pin="11" pinfunction="C" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="22" name="/Backplane Clock/FAST4">
+      <node ref="U13" pin="4" pinfunction="I0" pintype="input"/>
+      <node ref="U8" pin="9" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="23" name="/Backplane Clock/MODE">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U14" pin="9" pinfunction="S2" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="24" name="/Backplane Clock/SLOW">
+      <node ref="U14" pin="3" pinfunction="I1" pintype="input"/>
+      <node ref="U14" pin="4" pinfunction="I0" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="25" name="/Backplane Clock/SPEED">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U14" pin="10" pinfunction="S1" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="26" name="/Backplane Clock/STEP">
+      <node ref="U14" pin="12" pinfunction="I7" pintype="input"/>
+      <node ref="U14" pin="13" pinfunction="I6" pintype="input"/>
+      <node ref="U14" pin="14" pinfunction="I5" pintype="input"/>
+      <node ref="U14" pin="15" pinfunction="I4" pintype="input"/>
+      <node ref="U5" pin="2" pintype="output"/>
+    </net>
+    <net code="27" name="/Backplane Clock/~{CLK_EN}">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U14" pin="7" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="28" name="/CLK">
+      <node ref="J1" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J10" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J2" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J3" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J4" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J5" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J6" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J7" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="J9" pin="36" pinfunction="B5" pintype="passive"/>
+      <node ref="U11" pin="13" pintype="input"/>
+      <node ref="U14" pin="5" pinfunction="Y" pintype="tri_state"/>
+      <node ref="U3" pin="9" pinfunction="Cp" pintype="input"/>
+    </net>
+    <net code="29" name="/CLK2">
+      <node ref="J1" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J10" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J2" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J3" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J4" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J6" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J7" pin="43" pinfunction="B12" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="43" pinfunction="B12" pintype="passive"/>
+    </net>
+    <net code="30" name="/CLK4">
+      <node ref="J1" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J10" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J2" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J3" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J4" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J6" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J7" pin="51" pinfunction="B20" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="51" pinfunction="B20" pintype="passive"/>
+    </net>
+    <net code="31" name="/D0">
+      <node ref="J1" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J10" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J3" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J4" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J5" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J6" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J7" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="J9" pin="19" pinfunction="A19" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="D0" pintype="input"/>
+    </net>
+    <net code="32" name="/D1">
+      <node ref="J1" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J10" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J3" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J4" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J5" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J6" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J7" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="J9" pin="20" pinfunction="A20" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="D1" pintype="input"/>
+    </net>
+    <net code="33" name="/D2">
+      <node ref="J1" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J10" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J3" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J4" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J5" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J6" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J7" pin="21" pinfunction="A21" pintype="passive"/>
+      <node ref="J9" pin="21" pinfunction="A21" pintype="passive"/>
+    </net>
+    <net code="34" name="/D3">
+      <node ref="J1" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J10" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J3" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J4" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J5" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J6" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J7" pin="22" pinfunction="A22" pintype="passive"/>
+      <node ref="J9" pin="22" pinfunction="A22" pintype="passive"/>
+    </net>
+    <net code="35" name="/D4">
+      <node ref="J1" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J10" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J3" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J4" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J5" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="J6" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J7" pin="23" pinfunction="A23" pintype="passive"/>
+      <node ref="J9" pin="23" pinfunction="A23" pintype="passive"/>
+    </net>
+    <net code="36" name="/D5">
+      <node ref="J1" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J10" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J3" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J4" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J5" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J6" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J7" pin="24" pinfunction="A24" pintype="passive"/>
+      <node ref="J9" pin="24" pinfunction="A24" pintype="passive"/>
+    </net>
+    <net code="37" name="/D6">
+      <node ref="J1" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J10" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J2" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J3" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J4" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J5" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J6" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J7" pin="25" pinfunction="A25" pintype="passive"/>
+      <node ref="J9" pin="25" pinfunction="A25" pintype="passive"/>
+    </net>
+    <net code="38" name="/D7">
+      <node ref="J1" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J10" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J3" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J4" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J5" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J6" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J7" pin="26" pinfunction="A26" pintype="passive"/>
+      <node ref="J9" pin="26" pinfunction="A26" pintype="passive"/>
+    </net>
+    <net code="40" name="/PWR_UP">
+      <node ref="J1" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J10" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J2" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J3" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J4" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J6" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J7" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J9" pin="52" pinfunction="B21" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="output"/>
+    </net>
+    <net code="41" name="/Power &amp; Reset/VIN">
+      <node ref="J11" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="/RX">
+      <node ref="J1" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J10" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J3" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J4" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J5" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J6" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J7" pin="28" pinfunction="A28" pintype="passive"/>
+      <node ref="J9" pin="28" pinfunction="A28" pintype="passive"/>
+    </net>
+    <net code="43" name="/TX">
+      <node ref="J1" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J10" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J3" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J5" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J6" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J7" pin="27" pinfunction="A27" pintype="passive"/>
+      <node ref="J9" pin="27" pinfunction="A27" pintype="passive"/>
+    </net>
+    <net code="44" name="/USER1">
+      <node ref="J1" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J10" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J2" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J3" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J4" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J5" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J6" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J7" pin="53" pinfunction="B22" pintype="passive"/>
+      <node ref="J9" pin="53" pinfunction="B22" pintype="passive"/>
+    </net>
+    <net code="45" name="/USER2">
+      <node ref="J1" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J10" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J2" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J3" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J4" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J5" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J6" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J7" pin="54" pinfunction="B23" pintype="passive"/>
+      <node ref="J9" pin="54" pinfunction="B23" pintype="passive"/>
+    </net>
+    <net code="46" name="/USER3">
+      <node ref="J1" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J10" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J2" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J3" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J4" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J5" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J6" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J7" pin="55" pinfunction="B24" pintype="passive"/>
+      <node ref="J9" pin="55" pinfunction="B24" pintype="passive"/>
+    </net>
+    <net code="47" name="/USER4">
+      <node ref="J1" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J10" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J2" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J3" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J4" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J5" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J6" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J7" pin="56" pinfunction="B25" pintype="passive"/>
+      <node ref="J9" pin="56" pinfunction="B25" pintype="passive"/>
+    </net>
+    <net code="48" name="/USER5">
+      <node ref="J1" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J10" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J2" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J3" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J4" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J6" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J7" pin="57" pinfunction="B26" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J9" pin="57" pinfunction="B26" pintype="passive"/>
+    </net>
+    <net code="49" name="/USER6">
+      <node ref="J1" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J10" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J2" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J3" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J4" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J6" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J7" pin="58" pinfunction="B27" pintype="passive"/>
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J9" pin="58" pinfunction="B27" pintype="passive"/>
+    </net>
+    <net code="50" name="/USER7">
+      <node ref="J1" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J10" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J2" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J3" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J4" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J6" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J7" pin="59" pinfunction="B28" pintype="passive"/>
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J9" pin="59" pinfunction="B28" pintype="passive"/>
+    </net>
+    <net code="51" name="/USER8">
+      <node ref="J1" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J10" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J2" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J3" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J4" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J6" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J7" pin="60" pinfunction="B29" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J9" pin="60" pinfunction="B29" pintype="passive"/>
+    </net>
+    <net code="52" name="/~{BUSAK}">
+      <node ref="J1" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J10" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J2" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J3" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J4" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J6" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J7" pin="44" pinfunction="B13" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="44" pinfunction="B13" pintype="passive"/>
+    </net>
+    <net code="53" name="/~{BUSRQ}">
+      <node ref="J1" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J10" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J2" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J3" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J4" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J6" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J7" pin="46" pinfunction="B15" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="46" pinfunction="B15" pintype="passive"/>
+    </net>
+    <net code="54" name="/~{CLK_EN}">
+      <node ref="J1" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J10" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J2" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J3" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J4" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J6" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J7" pin="49" pinfunction="B18" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J9" pin="49" pinfunction="B18" pintype="passive"/>
+    </net>
+    <net code="55" name="/~{CLK_SEL}">
+      <node ref="J1" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J10" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J2" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J3" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J4" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J6" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J7" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="50" pinfunction="B19" pintype="passive"/>
+      <node ref="U5" pin="9" pintype="input"/>
+    </net>
+    <net code="56" name="/~{HALT}">
+      <node ref="J1" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J10" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J2" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J3" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J4" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J6" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J7" pin="45" pinfunction="B14" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="45" pinfunction="B14" pintype="passive"/>
+    </net>
+    <net code="57" name="/~{INT}">
+      <node ref="J1" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J10" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J3" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J4" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J5" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J6" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J7" pin="37" pinfunction="B6" pintype="passive"/>
+      <node ref="J9" pin="37" pinfunction="B6" pintype="passive"/>
+    </net>
+    <net code="58" name="/~{IORQ}">
+      <node ref="J1" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J10" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J2" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J3" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J4" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J5" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J6" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J7" pin="41" pinfunction="B10" pintype="passive"/>
+      <node ref="J9" pin="41" pinfunction="B10" pintype="passive"/>
+    </net>
+    <net code="59" name="/~{M1}">
+      <node ref="J1" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J10" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J2" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J3" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J4" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J5" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J6" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J7" pin="34" pinfunction="B3" pintype="passive"/>
+      <node ref="J9" pin="34" pinfunction="B3" pintype="passive"/>
+    </net>
+    <net code="60" name="/~{MREQ}">
+      <node ref="J1" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J10" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J2" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J3" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J4" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J5" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J6" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J7" pin="38" pinfunction="B7" pintype="passive"/>
+      <node ref="J9" pin="38" pinfunction="B7" pintype="passive"/>
+    </net>
+    <net code="61" name="/~{MR}">
+      <node ref="J1" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J10" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J2" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J3" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J4" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J6" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J7" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="42" pinfunction="B11" pintype="passive"/>
+      <node ref="RS1" pin="1" pinfunction="~{RESET}" pintype="output"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="~{Mr}" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="~{Mr}" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="D0" pintype="input"/>
+    </net>
+    <net code="62" name="/~{NMI}">
+      <node ref="J1" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J10" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J2" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J3" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J4" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J6" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J7" pin="48" pinfunction="B17" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="48" pinfunction="B17" pintype="passive"/>
+    </net>
+    <net code="63" name="/~{RD}">
+      <node ref="J1" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J10" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J2" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J3" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J4" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J5" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J6" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J7" pin="40" pinfunction="B9" pintype="passive"/>
+      <node ref="J9" pin="40" pinfunction="B9" pintype="passive"/>
+    </net>
+    <net code="64" name="/~{RESET}">
+      <node ref="J1" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J10" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J2" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J3" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J4" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J5" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J6" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J7" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="J9" pin="35" pinfunction="B4" pintype="passive"/>
+      <node ref="U2" pin="5" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="Q5" pintype="output"/>
+    </net>
+    <net code="65" name="/~{WAIT}">
+      <node ref="J1" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J10" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J2" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J3" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J4" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J6" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J7" pin="47" pinfunction="B16" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="47" pinfunction="B16" pintype="passive"/>
+    </net>
+    <net code="66" name="/~{WR}">
+      <node ref="J1" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J10" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J2" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J3" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J4" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J5" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J6" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J7" pin="39" pinfunction="B8" pintype="passive"/>
+      <node ref="J9" pin="39" pinfunction="B8" pintype="passive"/>
+    </net>
+    <net code="67" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J1" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J1" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J10" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J10" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J10" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J11" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J2" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J2" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J2" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J3" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J3" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J3" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J4" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J4" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J4" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J6" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J6" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J6" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J7" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J7" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J7" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="J8" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J9" pin="31" pinfunction="A31" pintype="passive"/>
+      <node ref="J9" pin="32" pinfunction="B1" pintype="passive"/>
+      <node ref="J9" pin="62" pinfunction="B31" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RS1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="11" pinfunction="D3" pintype="input"/>
+      <node ref="U12" pin="13" pinfunction="D4" pintype="input"/>
+      <node ref="U12" pin="14" pinfunction="D5" pintype="input"/>
+      <node ref="U12" pin="6" pinfunction="D2" pintype="input"/>
+      <node ref="U12" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="7" pinfunction="~{E}" pintype="input"/>
+      <node ref="U13" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="9" pinfunction="S2" pintype="input"/>
+      <node ref="U14" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="68" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RS1" pin="2" pinfunction="VCC" pintype="input"/>
+      <node ref="U2" pin="1" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U10" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pintype="output"/>
+    </net>
+    <net code="85" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="~{S}" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="SW7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="~{S}" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="~{Q}" pintype="output"/>
+    </net>
+    <net code="91" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="D" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="~{Q}" pintype="output"/>
+    </net>
+    <net code="92" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="SW6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="~{R}" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="~{R}" pintype="input"/>
+    </net>
+    <net code="95" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U15" pin="10" pintype="output"/>
+    </net>
+    <net code="97" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2" pintype="output"/>
+      <node ref="U2" pin="3" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="Q0" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="D1" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="Q1" pintype="output"/>
+      <node ref="U3" pin="6" pinfunction="D2" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="Q3" pintype="output"/>
+      <node ref="U3" pin="13" pinfunction="D4" pintype="input"/>
+    </net>
+    <net code="101" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="D3" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="Q2" pintype="output"/>
+    </net>
+    <net code="102" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="Q4" pintype="output"/>
+      <node ref="U3" pin="14" pinfunction="D5" pintype="input"/>
+    </net>
+    <net code="103" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="104" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3" pintype="output"/>
+      <node ref="U9" pin="12" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="105" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4" pintype="input"/>
+      <node ref="U9" pin="9" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="106" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="107" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6" pintype="output"/>
+      <node ref="U6" pin="11" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="108" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10" pintype="output"/>
+      <node ref="U9" pin="11" pinfunction="C" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="109" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="~{Q}" pintype="output"/>
+    </net>
+    <net code="110" name="Net-(U7-Pad11)">
+      <node ref="U7" pin="11" pinfunction="C" pintype="input"/>
+      <node ref="X1" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="111" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="12" pinfunction="D" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="~{Q}" pintype="output"/>
+    </net>
+    <net code="112" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="~{Q}" pintype="output"/>
+    </net>
+    <net code="113" name="Net-(U8-Pad12)">
+      <node ref="U8" pin="12" pinfunction="D" pintype="input"/>
+      <node ref="U8" pin="8" pinfunction="~{Q}" pintype="output"/>
+    </net>
+    <net code="114" name="Net-(U10-Pad3)">
+      <node ref="U10" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U7" pin="3" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="115" name="Net-(U11-Pad11)">
+      <node ref="U11" pin="11" pintype="output"/>
+      <node ref="U12" pin="9" pinfunction="Cp" pintype="input"/>
+      <node ref="U4" pin="2" pintype="input"/>
+      <node ref="U9" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="116" name="Net-(U11-Pad12)">
+      <node ref="U11" pin="12" pintype="input"/>
+      <node ref="U5" pin="8" pintype="output"/>
+    </net>
+    <net code="117" name="Net-(U12-Pad2)">
+      <node ref="U12" pin="2" pinfunction="Q0" pintype="output"/>
+      <node ref="U13" pin="11" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="118" name="Net-(U12-Pad5)">
+      <node ref="U12" pin="5" pinfunction="Q1" pintype="output"/>
+      <node ref="U13" pin="10" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="119" name="Net-(U13-Pad5)">
+      <node ref="U13" pin="5" pinfunction="Z" pintype="output"/>
+      <node ref="U4" pin="5" pintype="input"/>
+      <node ref="U5" pin="11" pintype="input"/>
+    </net>
+    <net code="120" name="Net-(U14-Pad6)">
+      <node ref="U14" pin="6" pinfunction="~{Y}" pintype="tri_state"/>
+      <node ref="U15" pin="11" pintype="input"/>
+    </net>
+    <net code="121" name="unconnected-(RV1-Pad1)">
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pintype="output+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pintype="output+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pintype="output+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U9-Pad6)">
+      <node ref="U9" pin="6" pinfunction="~{Q}" pintype="output+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U9-Pad8)">
+      <node ref="U9" pin="8" pinfunction="~{Q}" pintype="output+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U12-Pad7)">
+      <node ref="U12" pin="7" pinfunction="Q2" pintype="output+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U12-Pad10)">
+      <node ref="U12" pin="10" pinfunction="Q3" pintype="output+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U12-Pad12)">
+      <node ref="U12" pin="12" pinfunction="Q4" pintype="output+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U12-Pad15)">
+      <node ref="U12" pin="15" pinfunction="Q5" pintype="output+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U13-Pad6)">
+      <node ref="U13" pin="6" pinfunction="~{Z}" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

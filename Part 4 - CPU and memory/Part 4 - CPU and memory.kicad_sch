@@ -8,8 +8,9 @@
     (title "CPU,  64K FLASH, 512K RAM, with blinkenlights")
     (date "2022-10-27")
     (rev "1.1")
-    (company "Frederic Segard, aka: The Micro Hobbyist")
-    (comment 4 "Done with the inspiration of Grant Searl and John Winans")
+    (company "Frederic Segard")
+    (comment 1 "youtube.com/@microhobbyist.com")
+    (comment 4 "Designed with the inspiration of Grant Searl and John Winans")
   )
 
   (lib_symbols

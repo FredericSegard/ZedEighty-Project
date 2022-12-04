@@ -41,8 +41,13 @@
   (pad "" np_thru_hole circle (at -14.44 13.32) (size 4 4) (drill 4) (layers *.Cu *.Mask) (tstamp f7366bc7-fbe1-4573-a6c5-70d132b1acf0))
   (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp dc1328ae-788e-4e55-8090-8d0fa272fa94))
   (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 72833996-50ca-4342-9ce1-ff31346131bf))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.25u_PCB.wrl"
-    (offset (xyz 0 0 0))
+  (model "S:/Z80/ZedEighty-Project/0_Z80_Library/SW_Cherry_MX_PCB.step"
+    (offset (xyz -2.5 -5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "S:/Z80/ZedEighty-Project/0_Z80_Library/Stabilizer_Cherry_MX_2u.step"
+    (offset (xyz -2.5 -5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

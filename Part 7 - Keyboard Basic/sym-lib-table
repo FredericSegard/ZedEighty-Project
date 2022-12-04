@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name "Omega-Keyboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/Part 7 - Keyboard Basic-rescue.lib")(options "")(descr ""))
-  (lib (name "Part-7---Keyboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/Part 7 - Keyboard Basic-rescue.lib")(options "")(descr ""))
 )

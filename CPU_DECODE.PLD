@@ -1,0 +1,36 @@
+Name     CPU_DECODE ;
+PartNo   00 ;
+Date     10/27/2022 ;
+Revision 01 ;
+Designer FREDERIC SEGARD ;
+Company  MICRO HOBBYIST ;
+Assembly None ;
+Location  ;
+Device   G22V10 ;
+
+/* INPUTS */
+PIN 1  = BANK_SEL;
+PIN 2  = RESET;
+PIN 3  = A15;
+PIN 4  = A14;
+PIN 5  = A13;
+PIN 6  = A12;
+PIN 7  = A11;
+PIN 8  = A10;
+PIN 9  = A9;
+PIN 10 = A8;
+PIN 11 = D0;
+PIN 13 = !OE;
+PIN 14 = D1;
+PIN 15 = D2;
+PIN 16 = !RAM_OE;
+
+/* OUTPUTS */
+PIN 23 = BA18;
+PIN 22 = BA17;
+PIN 21 = BA16;
+PIN 20 = BOE;
+
+/* EQUATIONS */
+FIELD ADDRESS = [A15..A8];
+BOE = ADDRESS:[0100..DBFF];

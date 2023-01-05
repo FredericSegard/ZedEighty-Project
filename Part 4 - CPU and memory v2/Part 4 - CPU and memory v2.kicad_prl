@@ -1,8 +1,8 @@
 {
   "board": {
     "active_layer": 37,
-    "active_layer_preset": "",
-    "auto_track_width": false,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -33,12 +33,9 @@
       3,
       4,
       5,
-      6,
-      7,
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -64,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_7ffffffe",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Part 7 - Keyboard Basic.kicad_prl",
+    "filename": "Part 4 - CPU and memory v2.kicad_prl",
     "version": 3
   },
   "project": {

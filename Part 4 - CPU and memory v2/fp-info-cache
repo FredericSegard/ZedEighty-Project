@@ -1,11 +1,18 @@
-20656529207067398
+20653162602392233
 0 - Library
-8 LED BAR GRAPH
+8_Segment_Bar_graph
 
-
+Display
 0
 16
 16
+0 - Library
+10_Segment_Bar_graph
+DC10SRWA
+Display
+0
+20
+20
 0 - Library
 100x100 stack board
 
@@ -56,13 +63,6 @@ https://store.arduino.cc/arduino-uno-rev3
 38
 37
 0 - Library
-BUS_AT (WiP)
-AT ISA 16 bits Bus Edge Connector
-BUS ISA AT Edge connector
-0
-98
-98
-0 - Library
 BUS_XT
 XT ISA 8 bits Bus Edge Connector
 BUS ISA XT Edge connector 62
@@ -98,13 +98,6 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
 4
 4
 0 - Library
-DIP-16_W7.62mm
-16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
-0
-16
-16
-0 - Library
 ISA_Connector
 6-5530843-5-1
 Connector
@@ -134,13 +127,6 @@ JLCPCB Logo 2
 0
 0 - Library
 JLCPCB Logo 3
-
-
-0
-0
-0
-0 - Library
-MicroHobbyist
 
 
 0

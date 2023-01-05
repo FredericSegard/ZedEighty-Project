@@ -1,0 +1,19 @@
+Name     ClockOptimizeV2 ;
+PartNo   00 ;
+Date     10/12/2022 ;
+Revision 2 ;
+Designer Frederic Segard ;
+Company  Micro Hobbyist ;
+Assembly None ;
+Location  ;
+Device   G22V10 ;
+
+/* *************** INPUT PINS *********************/
+PIN     =                         ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN     =                         ; /*                                 */ 
+
+
+
+

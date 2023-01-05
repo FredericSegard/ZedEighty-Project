@@ -2129,7 +2129,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid afb74db6-a64f-4f52-8f0f-c1360266b316)
   )
-  (label "CLK1" (at 40.64 115.57 0)
+  (label "USER7" (at 40.64 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3a1f65c-ef47-4429-be39-bfe8dfaa5198)
   )
